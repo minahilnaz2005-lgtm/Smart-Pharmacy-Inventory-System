@@ -1,0 +1,56 @@
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.deps.json
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.runtimeconfig.json
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.AssemblyReference.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfoInputs.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfo.cs
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\refint\SPIEMS.DAL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.genruntimeconfig.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\ref\SPIEMS.DAL.dll
+C:\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.deps.json
+C:\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.runtimeconfig.json
+C:\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.AssemblyReference.cache
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfoInputs.cache
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfo.cs
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.CoreCompileInputs.cache
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.dll
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\refint\SPIEMS.DAL.dll
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.pdb
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.genruntimeconfig.cache
+C:\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\ref\SPIEMS.DAL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.deps.json
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.runtimeconfig.json
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.AssemblyReference.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfoInputs.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfo.cs
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.CoreCompileInputs.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\refint\SPIEMS.DAL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.pdb
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.genruntimeconfig.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\ref\SPIEMS.DAL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.deps.json
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.runtimeconfig.json
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.AssemblyReference.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfoInputs.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.AssemblyInfo.cs
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\refint\SPIEMS.DAL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\SPIEMS.DAL.genruntimeconfig.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.DAL\obj\Debug\net8.0\ref\SPIEMS.DAL.dll

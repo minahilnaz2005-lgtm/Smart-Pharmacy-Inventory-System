@@ -1,0 +1,58 @@
+﻿@using SPIEMS.DAL.Entities
+
+<h2>➕ Return Near-Expiry Medicines</h2>
+
+<a asp-action="Index" class="btn btn-secondary">← Back</a>
+
+<form method="post" style="max-width:600px;margin-top:15px;">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Supplier</label>
+        <select name="supplierId" required>
+            <option value="">-- Select Supplier --</option>
+            @{
+                var suppliers = ViewBag.Suppliers as List<Supplier> ?? new();
+            }
+            @foreach (var s in suppliers)
+            {
+                <option value="@s.Id">@s.Name</option>
+            }
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Near-Expiry Batch (<= 30 days)</label>
+        <select name="batchId" required>
+            <option value="">-- Select Batch --</option>
+            @{
+                var batches = ViewBag.Batches as List<MedicineBatch> ?? new();
+            }
+            @foreach (var b in batches)
+            {
+                <option value="@b.Id">
+                    @b.Medicine?.GenericName - Batch: @b.BatchNo - Exp: @b.ExpiryDate?.ToShortDateString() - Qty: @b.Quantity
+                </option>
+            }
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Quantity to Return</label>
+        <input type="number" name="quantity" min="1" required />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Reason (optional)</label>
+        <input type="text" name="reason" placeholder="Near Expiry / Damaged etc." />
+    </div>
+
+    <button type="submit" class="btn btn-success" style="margin-top:10px;">✅ Process Return</button>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div style="background:#f8d7da;padding:10px;margin-top:10px;">
+            ❌ @ViewData.ModelState.Values.First().Errors.First().ErrorMessage
+        </div>
+    }
+</form>

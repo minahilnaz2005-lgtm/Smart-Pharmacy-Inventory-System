@@ -1,0 +1,82 @@
+﻿@model List<SPIEMS.DAL.Entities.Sale>
+@using SPIEMS.DAL.Entities
+@{
+    Layout = null;
+    var from = ViewBag.From as string;
+    var to = ViewBag.To as string;
+    var grandTotal = Model.Sum(s => s.TotalAmount);
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sales Report</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        .small {
+            color: #666;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPIEMS Sales Report</h1>
+    <div class="small">From: @from | To: @to | Generated: @DateTime.Now</div>
+
+    <h3 style="margin-top:15px;">Grand Total: @grandTotal</h3>
+
+    @foreach (var s in Model)
+    {
+        <div style="margin-top:18px;">
+            <b>Sale #@s.Id</b> | Date: @s.SaleDate | Staff: @s.User?.Username | Total: @s.TotalAmount
+            <table>
+                <thead>
+                    <tr>
+                        <th>Medicine</th>
+                        <th>Batch</th>
+                        <th>Qty</th>
+                        <th>Unit</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var line in s.Lines)
+                    {
+                        <tr>
+                            <td>@line.MedicineBatch?.Medicine?.GenericName</td>
+                            <td>@line.MedicineBatch?.BatchNo</td>
+                            <td>@line.Quantity</td>
+                            <td>@line.UnitPrice</td>
+                            <td>@line.LineTotal</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</body>
+</html>

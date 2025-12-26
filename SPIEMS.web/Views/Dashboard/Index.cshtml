@@ -1,0 +1,473 @@
+﻿@model SPIEMS.Web.Models.DashboardVm
+@using System.Text.Json
+@using SPIEMS.DAL.Entities
+@using System.Linq
+@using System.Collections.Generic
+
+@{
+    ViewData["Title"] = "Dashboard";
+
+    var vm = Model ?? new SPIEMS.Web.Models.DashboardVm();
+
+    var username = User?.Identity?.Name ?? "Unknown";
+    var role = User?.Claims?.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Role)?.Value ?? "Unknown";
+
+    var recentCustomerSales = ViewBag.RecentCustomerSales as List<Sale> ?? new();
+    var expiredCount = (int)(ViewBag.ExpiredBatches ?? 0);
+
+    // charts
+    var expiryLabels = ViewBag.ExpiryLabels as List<string> ?? new();
+    var expiryValues =
+        ViewBag.ExpiryValues as List<int>
+        ?? ViewBag.ExpiryTrend as List<int>
+        ?? new();
+
+    var stockLabels = ViewBag.StockLabels as List<string> ?? new();
+    var stockValues = ViewBag.StockValues as List<int> ?? new();
+
+    var profitLabels = ViewBag.ProfitLabels as List<string> ?? new();
+    var profitValues =
+        ViewBag.ProfitValues as List<decimal>
+        ?? ViewBag.ProfitTrend as List<decimal>
+        ?? new();
+
+    var expiryLabelsJson = JsonSerializer.Serialize(expiryLabels);
+    var expiryValuesJson = JsonSerializer.Serialize(expiryValues);
+    var stockLabelsJson = JsonSerializer.Serialize(stockLabels);
+    var stockValuesJson = JsonSerializer.Serialize(stockValues);
+    var profitLabelsJson = JsonSerializer.Serialize(profitLabels);
+    var profitValuesJson = JsonSerializer.Serialize(profitValues);
+}
+
+<style>
+    :root{
+        --blue:#60a5fa;          /* light blue */
+        --blue2:#93c5fd;         /* lighter blue */
+        --blueSoft:#eff6ff;      /* soft hover */
+        --ink:#0f172a;
+        --muted:#64748b;
+        --line:#eef2f7;
+        --bg:#f6f8fb;
+        --shadow: 0 10px 20px rgba(15,23,42,.06);
+        --radius: 16px;
+    }
+
+    .dash-page{ background:var(--bg); padding:18px; border-radius:var(--radius); font-family:"Segoe UI",Arial,sans-serif; }
+
+    .dash-topbar{
+        background: linear-gradient(135deg, #2563eb, #60a5fa);
+        color:#fff;
+        border-radius:var(--radius);
+        padding:14px 16px;
+        box-shadow: 0 10px 24px rgba(15,23,42,.10);
+        display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
+        margin-bottom:14px;
+    }
+    .dash-topbar .who{ font-weight:700; opacity:.95; display:flex; align-items:center; gap:10px; }
+    .dash-topbar .actions{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+
+    /* ✅ Remove right column completely: only sidebar + main */
+    .dash-grid{ display:grid; grid-template-columns: 260px 1fr; gap:14px; align-items:start; }
+
+    .panel{
+        background:#fff;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        box-shadow:var(--shadow);
+        overflow:hidden;
+    }
+    .panel .hd{ padding:14px 14px 10px 14px; display:flex; align-items:center; justify-content:space-between; gap:10px; }
+    .panel .hd h5, .panel .hd h6{ margin:0; font-weight:900; color:var(--ink); letter-spacing:.2px; }
+    .panel .bd{ padding:0 14px 14px 14px; }
+
+    /* Sidebar */
+    .sidebar{ position:sticky; top:14px; }
+    .brandbox{ padding:14px; display:flex; align-items:center; gap:10px; background:#f8fafc; border-bottom:1px solid var(--line); }
+    .branddot{
+        width:36px; height:36px; border-radius:12px;
+        background: linear-gradient(135deg, var(--blue), var(--blue2));
+        box-shadow: 0 10px 20px rgba(96,165,250,.25);
+    }
+    .brandtxt{ line-height:1.1; }
+    .brandtxt .t1{ font-weight:900; color:var(--ink); }
+    .brandtxt .t2{ font-size:12px; color:var(--muted); font-weight:700; }
+
+    .side-nav{ padding:10px; }
+    .side-title{
+        font-weight:900; color:var(--ink);
+        margin:6px 6px 10px 6px;
+        display:flex; align-items:center; justify-content:space-between;
+    }
+    .pill{
+        font-size:12px; font-weight:900;
+        padding:3px 9px; border-radius:999px;
+        background: rgba(96,165,250,.18);
+        color: #1d4ed8;
+        border:1px solid rgba(96,165,250,.25);
+    }
+
+    /* ✅ Light-blue buttons */
+    .side-link{
+        display:flex; align-items:center; gap:10px;
+        width:100%;
+        padding:11px 12px;
+        border-radius:14px;
+        text-decoration:none;
+        font-weight:900;
+        margin:7px 0;
+        color:#fff;
+        background: linear-gradient(135deg, var(--blue), var(--blue2));
+        border: 1px solid transparent;
+        box-shadow: 0 14px 28px rgba(96,165,250,.22);
+    }
+    .side-link:hover{
+        filter: brightness(.98);
+        text-decoration:none;
+        color:#fff;
+    }
+
+    /* Middle stats */
+    .stats{ display:grid; grid-template-columns: repeat(4, minmax(180px, 1fr)); gap:14px; margin-bottom:14px; }
+    .stat{
+        position:relative;
+        background:#fff;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        box-shadow:var(--shadow);
+        padding:16px;
+        overflow:hidden;
+    }
+    .stat::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:#2563eb; }
+    .stat.red::before{ background:#ef4444; }
+    .stat.yellow::before{ background:#f59e0b; }
+    .stat.green::before{ background:#22c55e; }
+    .stat.blue::before{ background:#2563eb; }
+    .stat .label{ font-weight:900; color:var(--ink); }
+    .stat .num{ font-size:30px; font-weight:900; margin-top:6px; }
+
+    /* Alerts */
+    .alertbox{
+        background:#fff7ed;
+        border:1px solid #fed7aa;
+        border-radius:14px;
+        padding:12px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:12px;
+        flex-wrap:wrap;
+        color:#9a3412;
+        font-weight:900;
+    }
+    .okbox{
+        background:#dcfce7;
+        border:1px solid #bbf7d0;
+        border-radius:14px;
+        padding:12px;
+        font-weight:900;
+        color:#166534;
+    }
+
+    /* Charts */
+    .charts-wrap{ padding:14px; }
+    .charts-grid{ display:grid; grid-template-columns: repeat(3, minmax(220px, 1fr)); gap:14px; margin-top:10px; }
+    .chart-box{
+        background:#fbfcfe;
+        border:1px solid var(--line);
+        border-radius:var(--radius);
+        padding:12px;
+        height:320px;
+        position:relative;
+    }
+    canvas{ width:100% !important; height:100% !important; }
+    .no-data{
+        position:absolute; inset:0;
+        display:flex; align-items:center; justify-content:center;
+        font-weight:900; color:var(--muted);
+        text-align:center; padding:18px;
+    }
+
+    /* Tables */
+    table{ width:100%; border-collapse:collapse; }
+    th,td{ padding:10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+    th{ background:#f8fafc; }
+
+    /* Responsive */
+    @@media (max-width: 992px){
+        .dash-grid{ grid-template-columns: 1fr; }
+        .sidebar{ position:static; }
+        .stats{ grid-template-columns: repeat(2, minmax(160px, 1fr)); }
+        .charts-grid{ grid-template-columns: 1fr; }
+    }
+</style>
+
+<div class="dash-page">
+
+    <!-- Top bar: only place showing logged in info -->
+    <div class="dash-topbar">
+        <div class="who">👤 Logged in as: <strong>@username</strong> (@role)</div>
+
+        <div class="actions">
+            <button class="btn btn-light" type="button" onclick="toggleCharts()">📊 View Charts</button>
+
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-controller="SalesReports" asp-action="Index" class="btn btn-outline-light">📊 Sales Report</a>
+            }
+
+            <a asp-controller="Account" asp-action="Logout" class="btn btn-danger">🚪 Logout</a>
+        </div>
+    </div>
+
+    <div class="dash-grid">
+
+        <!-- LEFT sidebar -->
+        <div class="panel sidebar">
+            <div class="brandbox">
+                <div class="branddot"></div>
+                <div class="brandtxt">
+                    <div class="t1">SPIEMS</div>
+                    <div class="t2">Dashboard</div>
+                </div>
+            </div>
+
+            <div class="side-nav">
+                <div class="side-title">⚡ Quick Actions <span class="pill">Menu</span></div>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Medicines" asp-action="Add" class="side-link">➕ Add Medicine</a>
+                    <a asp-controller="Batches" asp-action="Add" class="side-link">📦 Add Batch</a>
+                    <a asp-controller="Suppliers" asp-action="Index" class="side-link">🏢 View Suppliers</a>
+                    <a asp-controller="Staff" asp-action="Create" class="side-link">👤 Add Staff</a>
+                    <a asp-controller="Staff" asp-action="Index" class="side-link">👥 View Staff</a>
+                }
+
+                <a asp-controller="Batches" asp-action="Index" class="side-link">📦 View Batches</a>
+
+                @if (User.IsInRole("Staff"))
+                {
+                    <a asp-controller="Sales" asp-action="Checkouts" class="side-link">🧾 Manage Customer Checkouts</a>
+                    <a asp-controller="Sales" asp-action="Index" class="side-link">💊 Process Sale (FIFO)</a>
+                }
+            </div>
+        </div>
+
+        <!-- MAIN content -->
+        <div>
+
+            <div class="stats">
+                <div class="stat red">
+                    <div class="label">⚠ Near Expiry (30 days)</div>
+                    <div class="num">@vm.NearExpiry</div>
+                </div>
+
+                <div class="stat yellow">
+                    <div class="label">📉 Low Stock</div>
+                    <div class="num">@vm.LowStock</div>
+                </div>
+
+                <div class="stat green">
+                    <div class="label">💊 Total Medicines</div>
+                    <div class="num">@vm.TotalMedicines</div>
+                </div>
+
+                <div class="stat blue">
+                    <div class="label">📦 Total Batches</div>
+                    <div class="num">@vm.TotalBatches</div>
+                </div>
+            </div>
+
+            <!-- Alerts under cards -->
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="panel" style="margin-bottom:14px;">
+                    <div class="hd">
+                        <h5>🚨 Critical Alerts</h5>
+                    </div>
+                    <div class="bd">
+                        @if (expiredCount > 0)
+                        {
+                            <div class="alertbox">
+                                <div>🔴 <strong>@expiredCount</strong> EXPIRED Batch - Remove immediately!</div>
+                                <a asp-controller="Batches" asp-action="Index" class="btn btn-danger btn-sm">View</a>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="okbox">✅ No expired batches</div>
+                        }
+                    </div>
+                </div>
+            }
+
+            <!-- Charts -->
+            <div id="chartsSection" class="panel" style="display:none;">
+                <div class="hd">
+                    <h5>📊 Inventory Analytics</h5>
+                </div>
+
+                <div class="charts-wrap">
+                    <div class="charts-grid">
+                        <div class="chart-box">
+                            <h6 style="margin:0 0 6px 0;">Expiry Trend</h6>
+                            <div id="expiryNoData" class="no-data" style="display:none;">No expiring batches in the selected months.</div>
+                            <canvas id="expiryChart"></canvas>
+                        </div>
+
+                        <div class="chart-box">
+                            <h6 style="margin:0 0 6px 0;">Stock by Medicine</h6>
+                            <canvas id="stockChart"></canvas>
+                        </div>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="chart-box">
+                                <h6 style="margin:0 0 6px 0;">Profit Trend</h6>
+                                <canvas id="profitChart"></canvas>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @if (User.IsInRole("Staff"))
+            {
+                <div class="panel" style="margin-top:14px;">
+                    <div class="hd">
+                        <h5>🛒 Recent Customer Checkouts</h5>
+                    </div>
+
+                    <div class="bd">
+                        @if (!recentCustomerSales.Any())
+                        {
+                            <div class="alertbox">
+                                <div>No customer checkouts yet.</div>
+                            </div>
+                        }
+                        else
+                        {
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Sale #</th>
+                                        <th>Customer</th>
+                                        <th>Date</th>
+                                        <th>Total</th>
+                                        <th>Items</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var s in recentCustomerSales)
+                                    {
+                                        <tr>
+                                            <td>@s.Id</td>
+                                            <td>@(s.User?.Username ?? ("User #" + s.UserId))</td>
+                                            <td>@s.SaleDate</td>
+                                            <td>@s.TotalAmount</td>
+                                            <td>@(s.Lines?.Sum(l => l.Quantity) ?? 0)</td>
+                                            <td>@(s.Status ?? "Checkout")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                            <div style="margin-top:10px;">
+                                <a asp-controller="Sales" asp-action="Checkouts" class="btn btn-primary">Manage Sales</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        let chartsLoaded = false;
+
+        function toggleCharts() {
+            const section = document.getElementById("chartsSection");
+            if (!section) return;
+
+            const isHidden = (section.style.display === "none");
+            section.style.display = isHidden ? "block" : "none";
+
+            if (isHidden && !chartsLoaded) {
+                loadCharts();
+                chartsLoaded = true;
+            }
+        }
+
+        function isAllZero(arr) {
+            if (!Array.isArray(arr) || arr.length === 0) return true;
+            return arr.every(x => (Number(x) || 0) === 0);
+        }
+
+        function loadCharts() {
+            const expiryLabels = @Html.Raw(expiryLabelsJson);
+            const expiryValues = @Html.Raw(expiryValuesJson);
+            const stockLabels = @Html.Raw(stockLabelsJson);
+            const stockValues = @Html.Raw(stockValuesJson);
+
+            const profitLabels = @Html.Raw(profitLabelsJson);
+            const profitValues = @Html.Raw(profitValuesJson);
+
+            const expiryNoData = document.getElementById("expiryNoData");
+            const expiryCanvas = document.getElementById("expiryChart");
+
+            if (isAllZero(expiryValues)) {
+                if (expiryNoData) expiryNoData.style.display = "flex";
+                if (expiryCanvas) expiryCanvas.style.display = "none";
+            } else {
+                if (expiryNoData) expiryNoData.style.display = "none";
+                if (expiryCanvas) expiryCanvas.style.display = "block";
+
+                new Chart(expiryCanvas, {
+                    type: 'bar',
+                    data: {
+                        labels: expiryLabels,
+                        datasets: [{ label: 'Batches Expiring', data: expiryValues, borderWidth: 1 }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { grid: { display: false } },
+                            y: { beginAtZero: true, ticks: { precision: 0 }, grid: { display: false } }
+                        }
+                    }
+                });
+            }
+
+            const stockEl = document.getElementById('stockChart');
+            if (stockEl) {
+                new Chart(stockEl, {
+                    type: 'pie',
+                    data: { labels: stockLabels, datasets: [{ data: stockValues, hoverOffset: 10 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+                });
+            }
+
+            const profitEl = document.getElementById('profitChart');
+            if (profitEl && Array.isArray(profitLabels) && Array.isArray(profitValues) && profitLabels.length > 0) {
+                new Chart(profitEl, {
+                    type: 'line',
+                    data: { labels: profitLabels, datasets: [{ label: 'Profit', data: profitValues, tension: 0.35, fill: false }] },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { display: true } },
+                        scales: { x: { grid: { display: false } }, y: { grid: { display: false } } }
+                    }
+                });
+            }
+        }
+    </script>
+}

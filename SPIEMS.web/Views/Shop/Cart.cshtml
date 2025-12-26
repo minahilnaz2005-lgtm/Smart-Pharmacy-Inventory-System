@@ -1,0 +1,68 @@
+@model List<SPIEMS.Web.Models.CartItemVm>
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+    decimal total = Model.Sum(x => x.EstimatedPrice * x.Quantity);
+}
+
+<div class="container mt-4">
+    <h2>Shopping Cart</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            Your cart is empty. <a asp-action="Index" class="alert-link">Go Shopping</a>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Medicine</th>
+                            <th>Quantity</th>
+                            <th>Est. Price</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.MedicineName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.EstimatedPrice.ToString("C")</td>
+                                <td>@((item.EstimatedPrice * item.Quantity).ToString("C"))</td>
+                                <td>
+                                    <a asp-action="RemoveFromCart" asp-route-id="@item.MedicineId" class="btn btn-outline-danger btn-sm">Remove</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-end"><strong>Total (Estimated):</strong></td>
+                            <td><strong>@total.ToString("C")</strong></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt-4 text-end">
+            <form asp-action="Checkout" method="post">
+                <a asp-action="Index" class="btn btn-secondary me-2">Continue Shopping</a>
+                <button type="submit" class="btn btn-success btn-lg">Checkout</button>
+            </form>
+        </div>
+    }
+</div>

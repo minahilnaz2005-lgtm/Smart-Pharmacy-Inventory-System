@@ -1,0 +1,177 @@
+﻿@model SPIEMS.Web.Models.SignupVm
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SPIEMS Register</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(90deg, #6a6ff5, #7a4ea5);
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        .card {
+            width: 520px;
+            max-width: 92vw;
+            background: #fff;
+            border-radius: 18px;
+            padding: 38px 40px;
+            box-shadow: 0 18px 40px rgba(0,0,0,.18);
+            text-align: center;
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            margin: 0 auto 14px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            margin: 0;
+            font-size: 44px;
+            font-weight: 900;
+            color: #1f2937;
+            letter-spacing: .5px;
+        }
+
+        .subtitle {
+            margin: 8px 0 26px 0;
+            color: #6b7280;
+            font-size: 18px;
+        }
+
+        .field {
+            text-align: left;
+            margin: 18px 0 6px 0;
+            font-size: 18px;
+            font-weight: 700;
+            color: #374151;
+        }
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px 16px;
+            border-radius: 10px;
+            border: 2px solid #e5e7eb;
+            background: #eef4ff;
+            font-size: 18px;
+            outline: none;
+        }
+
+            input:focus {
+                border-color: #6a6ff5;
+                box-shadow: 0 0 0 4px rgba(106,111,245,.18);
+            }
+
+        .btn {
+            width: 100%;
+            margin-top: 22px;
+            padding: 18px 16px;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #6a6ff5, #7a4ea5);
+            color: #fff;
+            font-size: 22px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                filter: brightness(1.05);
+            }
+
+        .alert {
+            margin-top: 16px;
+            padding: 14px 14px;
+            background: #ffe3e3;
+            border-radius: 10px;
+            color: #8a1f1f;
+            text-align: left;
+            font-weight: 700;
+        }
+
+        .links {
+            margin-top: 16px;
+            font-size: 16px;
+        }
+
+        a {
+            color: #6a6ff5;
+            text-decoration: none;
+            font-weight: 800;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        @@media (max-width: 520px) {
+            .card {
+                padding: 28px 22px;
+            }
+
+            .title {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="logo">
+            <!-- keep simple icon slot; your login image can be placed here if you want -->
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                <path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" fill="#dbeafe" />
+                <path d="M12 7v10M7 12h10" stroke="#7a4ea5" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+
+        <h1 class="title">SPIEMS</h1>
+        <div class="subtitle">Smart Pharmacy Inventory System</div>
+
+        <form asp-action="Signup" method="post">
+            <div class="field">Username</div>
+            <input asp-for="Username" placeholder="Enter username" />
+
+            <div class="field">Password</div>
+            <input asp-for="Password" type="password" placeholder="Enter password" />
+
+            <div class="field">Confirm Password</div>
+            <input asp-for="ConfirmPassword" type="password" placeholder="Confirm password" />
+
+            <button class="btn" type="submit">Register</button>
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert">
+                    @foreach (var e in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <div>@e.ErrorMessage</div>
+                    }
+                </div>
+            }
+
+            <div class="links">
+                <a asp-controller="Account" asp-action="Login">Back to Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

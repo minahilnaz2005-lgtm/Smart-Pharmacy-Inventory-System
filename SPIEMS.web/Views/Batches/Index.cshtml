@@ -1,0 +1,86 @@
+﻿@model IEnumerable<SPIEMS.DAL.Entities.MedicineBatch>
+@using SPIEMS.BLL.Helpers
+
+<h1>📦 Medicine Batches</h1>
+
+<div style="margin-bottom:15px;">
+    <a asp-controller="Dashboard"
+       asp-action="Index"
+       class="btn btn-secondary">
+        ← Back to Dashboard
+    </a>
+
+    <a asp-controller="Batches"
+       asp-action="Add"
+       class="btn btn-success">
+        ➕ Add New Batch
+    </a>
+</div>
+
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <thead style="background:#007bff; color:white;">
+        <tr>
+            <th>Batch No</th>
+            <th>Medicine</th>
+            <th>Supplier</th>
+            <th>Purchase Date</th>
+            <th>Expiry Date</th>
+            <th>Days Left</th>
+            <th>Status</th>
+            <th>Quantity</th>
+            <th>Cost</th>
+            <th>Sale Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var b in Model)
+        {
+            var daysLeft = ExpiryHelper.DaysToExpiry(b.ExpiryDate);
+            var status = ExpiryHelper.GetStatus(daysLeft);
+
+            string bgColor = status switch
+            {
+                "Critical" => "#f8d7da",
+                "Warning" => "#fff3cd",
+                "Safe" => "#d4edda",
+                _ => "#eeeeee"
+            };
+
+            <tr style="background:@bgColor;">
+                <td>@b.BatchNo</td>
+                <td>@b.Medicine?.GenericName</td>
+                <td>@b.Supplier?.Name</td>
+                <td>@b.PurchaseDate.ToShortDateString()</td>
+                <td>@b.ExpiryDate?.ToShortDateString()</td>
+                <td>
+                    @(daysLeft == int.MaxValue ? "N/A" : daysLeft)
+                </td>
+                <td>
+                    @if (status == "Critical")
+                    {
+                        <strong style="color:#721c24;">🔴 Critical</strong>
+                    }
+                    else if (status == "Warning")
+                    {
+                        <strong style="color:#856404;">🟡 Warning</strong>
+                    }
+                    else
+                    {
+                        <strong style="color:#155724;">🟢 Safe</strong>
+                    }
+                </td>
+                <td>@b.Quantity</td>
+                <td>@b.CostPrice</td>
+                <td>@b.SalePrice</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- LEGEND -->
+<div style="margin-top:15px;">
+    <span style="background:#f8d7da;padding:6px;">🔴 ≤ 7 days</span>
+    <span style="background:#fff3cd;padding:6px;">🟡 8–30 days</span>
+    <span style="background:#d4edda;padding:6px;">🟢 Safe</span>
+</div>

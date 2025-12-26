@@ -1,0 +1,1019 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\staff\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\staff\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\models\\staffcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\models\\staffcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\batchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\batchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\models\\signupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\models\\signupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\sales\\checkouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\sales\\checkouts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\salesreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\salesreports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251226050738_addprocessedbyonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251226050738_addprocessedbyonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\salesreports\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\salesreports\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\salesreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\salesreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\batches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\batches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\chartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\chartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251225075451_addsalestables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251225075451_addsalestables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\returncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\returncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\spiemsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\spiemsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\suppliers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\suppliers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\batches\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\batches\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\medicinebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\medicinebatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\returntosupplierservic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\returntosupplierservic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\returns\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\returns\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\returns\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\returns\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\supplierreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\supplierreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\services\\expirypredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\services\\expirypredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\airam\\source\\repos\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223204801_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\suppliers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\suppliers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.bll\\helpers\\expiryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFC594E-C0C1-C7F1-8136-693B5066E7A3}|SPIEMS.BLL\\SPIEMS.BLL.csproj|solutionrelative:spiems.bll\\helpers\\expiryhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\medicines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\medicines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\views\\medicines\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\views\\medicines\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\models\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\models\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\spiemsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\spiemsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251223223457_initialwithcompleteseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251223223457_initialwithcompleteseeds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.web\\models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD115E4C-C622-E375-CED9-46F9A72FAFEB}|SPIEMS.web\\SPIEMS.web.csproj|solutionrelative:spiems.web\\models\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251225054358_supplierreturnsandisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251225054358_supplierreturnsandisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251225073522_addsalestrcking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251225073522_addsalestrcking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|c:\\users\\airam\\onedrive\\desktop\\cs 4th semester\\spiems.web (3)\\spiems.web (3)\\spiems.web\\spiems.dal\\migrations\\20251225065452_fixmedicinebatchsupplierid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AACFE2F-BC45-0E15-77EE-36B6AC1BB736}|SPIEMS.DAL\\SPIEMS.DAL.csproj|solutionrelative:spiems.dal\\migrations\\20251225065452_fixmedicinebatchsupplierid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\StaffCreateVm.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Models\\StaffCreateVm.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\StaffCreateVm.cs",
+              "RelativeToolTip": "SPIEMS.web\\Models\\StaffCreateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T17:43:07.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Staff\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Staff\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Staff\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Staff\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T07:53:52.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T07:26:50.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Staff\\Create.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Staff\\Create.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Staff\\Create.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Staff\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T06:33:46.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T06:32:59.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251226050738_AddProcessedByOnly.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251226050738_AddProcessedByOnly.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251226050738_AddProcessedByOnly.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251226050738_AddProcessedByOnly.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251226050738_AddProcessedByOnly.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:07:38.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251226050318_AddProcessedByToSale.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251226050318_AddProcessedByToSale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:03:18.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Checkouts.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Sales\\Checkouts.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Sales\\Checkouts.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Sales\\Checkouts.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Sales\\Checkouts.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T04:38:52.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T10:56:26.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20251225075451_AddSalesTables.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225075451_AddSalesTables.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251225075451_AddSalesTables.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225075451_AddSalesTables.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251225075451_AddSalesTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:54:51.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Print.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\SalesReports\\Print.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\SalesReports\\Print.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\SalesReports\\Print.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\SalesReports\\Print.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAQwFEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T07:44:55.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\SalesReports\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\SalesReports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\SalesReports\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\SalesReports\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T07:44:28.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SalesReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SalesReportsController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\SalesReportsController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SalesReportsController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\SalesReportsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:43:25.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SaleLine.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\SaleLine.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\SaleLine.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\SaleLine.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\SaleLine.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:40:35.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Sales.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\Sales.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Sales.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\Sales.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:39:30.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20251225073522_AddSalesTrcking.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225073522_AddSalesTrcking.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251225073522_AddSalesTrcking.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225073522_AddSalesTrcking.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251225073522_AddSalesTrcking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:35:22.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20251225065452_FixMedicineBatchSupplierId.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225065452_FixMedicineBatchSupplierId.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251225065452_FixMedicineBatchSupplierId.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225065452_FixMedicineBatchSupplierId.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251225065452_FixMedicineBatchSupplierId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T06:54:52.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Details.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Suppliers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Details.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Suppliers\\Details.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T06:52:39.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20251225054358_SupplierReturnsAndIsActive.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225054358_SupplierReturnsAndIsActive.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251225054358_SupplierReturnsAndIsActive.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251225054358_SupplierReturnsAndIsActive.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251225054358_SupplierReturnsAndIsActive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:43:59.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Returns\\Create.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Returns\\Create.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Returns\\Create.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Returns\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T05:27:04.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Returns\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Returns\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Returns\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Returns\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T05:25:40.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Suppliers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Suppliers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T05:24:55.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Create.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Suppliers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Create.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Suppliers\\Create.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T05:23:34.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Suppliers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Suppliers\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Suppliers\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T05:22:45.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReturnController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\ReturnController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\ReturnController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\ReturnController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\ReturnController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwDwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:21:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAwGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:20:07.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReturnToSupplierServic.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ReturnToSupplierServic.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\ReturnToSupplierServic.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ReturnToSupplierServic.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\ReturnToSupplierServic.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwEAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:18:03.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\SupplierService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\SupplierService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\SupplierService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:17:11.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SupplierReturn.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\SupplierReturn.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\SupplierReturn.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\SupplierReturn.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\SupplierReturn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T05:14:50.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ExpiryHelper.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Helpers\\ExpiryHelper.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Helpers\\ExpiryHelper.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Helpers\\ExpiryHelper.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Helpers\\ExpiryHelper.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T23:56:01.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChartService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ChartService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\ChartService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ChartService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\ChartService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAYwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T23:41:23.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SalesService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\SalesService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\SalesService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\SalesService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\SalesService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T23:36:14.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Sales\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Sales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Sales\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Sales\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T23:24:45.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T23:23:31.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SPIEMSDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\SPIEMSDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\SPIEMSDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\SPIEMSDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\SPIEMSDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAAAcwCwBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T22:37:44.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20251223223457_InitialWithCompleteSeeds.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223223457_InitialWithCompleteSeeds.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Migrations\\20251223223457_InitialWithCompleteSeeds.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223223457_InitialWithCompleteSeeds.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Migrations\\20251223223457_InitialWithCompleteSeeds.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAUwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T22:34:58.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Account\\Signup.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Account\\Signup.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Account\\Signup.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAswLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:31:46.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignupVm.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\SignupVm.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Models\\SignupVm.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\SignupVm.cs",
+              "RelativeToolTip": "SPIEMS.web\\Models\\SignupVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:30:51.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAswKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:23:42.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:22:56.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Batches\\Add.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Batches\\Add.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Batches\\Add.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Batches\\Add.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:21:00.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Batches\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Batches\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Batches\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Batches\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:20:16.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\BatchesController.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Controllers\\BatchesController.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Controllers\\BatchesController.cs",
+              "RelativeToolTip": "SPIEMS.web\\Controllers\\BatchesController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:18:10.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Medicines\\Add.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Medicines\\Add.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Medicines\\Add.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Medicines\\Add.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:17:27.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Medicines\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Medicines\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Medicines\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Medicines\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:14:07.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DashboardVm.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\DashboardVm.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Models\\DashboardVm.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\DashboardVm.cs",
+              "RelativeToolTip": "SPIEMS.web\\Models\\DashboardVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:09:37.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:08:36.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SPIEMS.web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswIMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-23T21:07:46.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\LoginVm.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Models\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Models\\LoginVm.cs",
+              "RelativeToolTip": "SPIEMS.web\\Models\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:04:53.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\DashboardService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\DashboardService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:51:55.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BatchService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\BatchService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\BatchService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\BatchService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\BatchService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA7wCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:50:49.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ExpiryPredictionService.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ExpiryPredictionService.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Services\\ExpiryPredictionService.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Services\\ExpiryPredictionService.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Services\\ExpiryPredictionService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:50:14.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251223204801_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\source\\repos\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223204801_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\source\\repos\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223204801_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\airam\\source\\repos\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223204801_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\source\\repos\\SPIEMS.web\\SPIEMS.DAL\\Migrations\\20251223204801_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:48:01.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Program.cs",
+              "RelativeDocumentMoniker": "SPIEMS.web\\Program.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\Program.cs",
+              "RelativeToolTip": "SPIEMS.web\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:41:17.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Category.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:33:55.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\appsettings.json",
+              "RelativeDocumentMoniker": "SPIEMS.web\\appsettings.json",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\appsettings.json",
+              "RelativeToolTip": "SPIEMS.web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-23T20:32:17.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SPIEMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMSDbContext.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\SPIEMSDbContext.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMSDbContext.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\SPIEMSDbContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:31:20.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\User.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:29:17.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Supplier.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\Supplier.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:28:50.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MedicineBatch.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\MedicineBatch.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\MedicineBatch.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\MedicineBatch.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\MedicineBatch.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:28:20.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Medicine.cs",
+              "RelativeDocumentMoniker": "SPIEMS.DAL\\Entities\\Medicine.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\Entities\\Medicine.cs",
+              "RelativeToolTip": "SPIEMS.DAL\\Entities\\Medicine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:27:59.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "SPIEMS.BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\Class1.cs",
+              "RelativeToolTip": "SPIEMS.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:20:09.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿@model SPIEMS.DAL.Entities.Supplier
+
+<h2>✏ Edit Supplier</h2>
+
+<a asp-action="Index" class="btn btn-secondary">← Back</a>
+
+<form method="post" style="max-width:500px;margin-top:15px;">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" required />
+    </div>
+
+    <div>
+        <label>Phone</label>
+        <input asp-for="Phone" />
+    </div>
+
+    <div>
+        <label>Address</label>
+        <input asp-for="Address" />
+    </div>
+
+    <div>
+        <label>Status</label>
+        <select asp-for="IsActive">
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success" style="margin-top:10px;">💾 Update</button>
+</form>

@@ -1,0 +1,60 @@
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.deps.json
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.pdb
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.AssemblyReference.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfoInputs.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfo.cs
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.CoreCompileInputs.cache
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.Up2Date
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\refint\SPIEMS.BLL.dll
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.pdb
+C:\Users\airam\source\repos\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\ref\SPIEMS.BLL.dll
+C:\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.deps.json
+C:\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.dll
+C:\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.pdb
+C:\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.AssemblyReference.cache
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfoInputs.cache
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfo.cs
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.CoreCompileInputs.cache
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.Up2Date
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.dll
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\refint\SPIEMS.BLL.dll
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.pdb
+C:\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\ref\SPIEMS.BLL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.deps.json
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.pdb
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.AssemblyReference.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfoInputs.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfo.cs
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.CoreCompileInputs.cache
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.Up2Date
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\refint\SPIEMS.BLL.dll
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.pdb
+D:\Downloads\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\ref\SPIEMS.BLL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.deps.json
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.BLL.pdb
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\bin\Debug\net8.0\SPIEMS.DAL.pdb
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.AssemblyReference.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfoInputs.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.AssemblyInfo.cs
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.CoreCompileInputs.cache
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.csproj.Up2Date
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\refint\SPIEMS.BLL.dll
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\SPIEMS.BLL.pdb
+C:\Users\airam\OneDrive\Desktop\cs 4th semester\SPIEMS.web (3)\SPIEMS.web (3)\SPIEMS.web\SPIEMS.BLL\obj\Debug\net8.0\ref\SPIEMS.BLL.dll

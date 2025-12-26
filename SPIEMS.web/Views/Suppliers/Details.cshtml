@@ -1,0 +1,52 @@
+﻿@model SPIEMS.DAL.Entities.Supplier
+@using SPIEMS.DAL.Entities
+
+<h2>🏢 Supplier Details</h2>
+
+<a asp-action="Index" class="btn btn-secondary">← Back</a>
+
+<div style="margin-top:15px; padding:12px; border:1px solid #ddd;">
+    <p><b>Name:</b> @Model.Name</p>
+    <p><b>Phone:</b> @Model.Phone</p>
+    <p><b>Address:</b> @Model.Address</p>
+    <p><b>Status:</b> @(Model.IsActive ? "Active" : "Inactive")</p>
+</div>
+
+<h3 style="margin-top:20px;">📦 Batches supplied</h3>
+
+@{
+    var batches = ViewBag.Batches as List<MedicineBatch> ?? new();
+}
+
+@if (!batches.Any())
+{
+    <div style="background:#fff3cd;padding:10px;margin-top:10px;">
+        ⚠ No batches linked to this supplier yet.
+    </div>
+}
+else
+{
+    <table border="1" cellpadding="10" width="100%" style="margin-top:10px;">
+        <thead style="background:#007bff;color:white;">
+            <tr>
+                <th>Batch No</th>
+                <th>Medicine</th>
+                <th>Purchase Date</th>
+                <th>Expiry Date</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in batches)
+            {
+                <tr>
+                    <td>@b.BatchNo</td>
+                    <td>@b.Medicine?.GenericName</td>
+                    <td>@b.PurchaseDate.ToShortDateString()</td>
+                    <td>@b.ExpiryDate?.ToShortDateString()</td>
+                    <td>@b.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

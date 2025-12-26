@@ -1,0 +1,56 @@
+﻿@using SPIEMS.DAL.Entities
+
+<h1>🧾 Process Sale (FIFO)</h1>
+
+<a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">
+    ← Back to Dashboard
+</a>
+
+<a asp-controller="Sales" asp-action="Checkouts" class="btn btn-warning" style="margin-left:10px;">
+    🛒 Manage Customer Checkouts
+</a>
+
+@if (TempData["Success"] != null)
+{
+    <div style="background:#d4edda; padding:10px; margin:15px 0;">
+        ✅ @TempData["Success"]
+    </div>
+}
+
+<form method="post" style="max-width:500px; margin-top:20px;">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Medicine</label>
+        <select name="medicineId" required>
+            <option value="">-- Select Medicine --</option>
+            @{
+                var meds = ViewBag.Medicines as List<Medicine> ?? new();
+            }
+            @foreach (var m in meds)
+            {
+                <option value="@m.Id">@m.GenericName</option>
+            }
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Quantity</label>
+        <input type="number" name="quantity" min="1" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary" style="margin-top:15px;">
+        🧾 Complete Sale
+    </button>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div style="background:#f8d7da; padding:10px; margin-top:15px;">
+        ❌ @ViewData.ModelState.Values.First().Errors.First().ErrorMessage
+    </div>
+}
+
+<div style="margin-top:20px; background:#fff3cd; padding:10px; border-radius:8px;">
+    ℹ Sales history is shown on the <b>Admin Sales Report</b>.
+</div>

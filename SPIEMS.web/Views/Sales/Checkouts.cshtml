@@ -1,0 +1,54 @@
+﻿@model List<SPIEMS.DAL.Entities.Sale>
+
+<h1>Manage Customer Checkouts</h1>
+
+<a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">← Back to Dashboard</a>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success" style="margin-top:15px;">
+        @TempData["Success"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info" style="margin-top:15px;">No pending checkouts.</div>
+}
+else
+{
+    <table class="table table-bordered" style="margin-top:15px;">
+        <thead class="table-primary">
+            <tr>
+                <th>Sale #</th>
+                <th>Customer</th>
+                <th>Date</th>
+                <th>Total</th>
+                <th>Medicines</th>
+                <th>Items</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.Id</td>
+                    <td>@s.User?.Username</td>
+                    <td>@s.SaleDate</td>
+                    <td>@s.TotalAmount</td>
+                    <td>@string.Join(", ", s.Lines.Select(l => l.MedicineBatch.Medicine.GenericName))</td>
+                    <td>@s.Lines.Sum(l => l.Quantity)</td>
+                    <td>
+                        <form asp-controller="Sales" asp-action="MarkSoldOut" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@s.Id" />
+                            <button type="submit" class="btn btn-success">Confirm Sale</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

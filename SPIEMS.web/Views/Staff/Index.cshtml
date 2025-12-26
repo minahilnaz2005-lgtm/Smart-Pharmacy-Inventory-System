@@ -1,0 +1,74 @@
+﻿@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Staff Accounts";
+}
+
+<style>
+    .box {
+        background: #fff;
+        border-radius: 12px;
+        padding: 18px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.06);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+    }
+
+    th {
+        background: #f7f7f7;
+    }
+</style>
+
+<div class="box">
+    <h2 style="margin-top:0;">👥 Staff Accounts</h2>
+
+    <div style="margin-bottom:12px;">
+        <a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">⬅ Back to Dashboard</a>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-warning">No staff accounts found.</div>
+    }
+    else
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:80px;">ID</th>
+                    <th>Username</th>
+                    <th style="width:140px;">Role</th>
+                    <th style="width:160px;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var u in Model)
+                {
+                    <tr>
+                        <td>@u.Id</td>
+                        <td>@u.Username</td>
+                        <td>@(u.Role ?? "Staff")</td>
+                        <td>
+                            <form asp-controller="Staff" asp-action="Delete" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@u.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm"
+                                        onclick="return confirm('Delete staff user: @u.Username ?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

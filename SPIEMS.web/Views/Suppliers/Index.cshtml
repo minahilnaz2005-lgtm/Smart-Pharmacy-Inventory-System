@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SPIEMS.DAL.Entities.Supplier>
+
+<h2>🏢 Suppliers</h2>
+
+<a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">← Back to Dashboard</a>
+<a asp-action="Create" class="btn btn-success">➕ Add Supplier</a>
+
+@if (TempData["Success"] != null)
+{
+    <div style="background:#d4edda;padding:10px;margin:10px 0;">✅ @TempData["Success"]</div>
+}
+
+<table border="1" cellpadding="10" width="100%" style="margin-top:10px;">
+    <thead style="background:#007bff;color:white;">
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.Phone</td>
+                <td>@s.Address</td>
+                <td>@(s.IsActive ? "Active" : "Inactive")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@s.Id" class="btn btn-info">📦 Batches</a>
+                    <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-secondary">✏ Edit</a>
+
+                    @if (s.IsActive)
+                    {
+                        <form asp-action="Deactivate" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@s.Id" />
+                            <button class="btn btn-danger" type="submit">🚫 Deactivate</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="Activate" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@s.Id" />
+                            <button class="btn btn-success" type="submit">✅ Activate</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

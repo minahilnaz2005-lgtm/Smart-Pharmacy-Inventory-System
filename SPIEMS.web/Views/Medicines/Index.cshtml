@@ -1,0 +1,53 @@
+﻿@model IEnumerable<SPIEMS.DAL.Entities.Medicine>
+
+<h1>💊 Medicines</h1>
+
+<div style="margin-bottom:15px;">
+    <a asp-controller="Dashboard"
+       asp-action="Index"
+       class="btn btn-secondary">
+        ← Back to Dashboard
+    </a>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-controller="Medicines"
+           asp-action="Add"
+           class="btn btn-success">
+            ➕ Add Medicine
+        </a>
+    }
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <div style="background:#d4edda; padding:10px; margin-bottom:15px;">
+        ✅ @TempData["Success"]
+    </div>
+}
+
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+    <thead style="background:#007bff; color:white;">
+        <tr>
+            <th>ID</th>
+            <th>Generic Name</th>
+            <th>Brand Name</th>
+            <th>Company</th>
+            <th>Category</th>
+            <th>Reorder Level</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var med in Model)
+        {
+            <tr>
+                <td>@med.Id</td>
+                <td>@med.GenericName</td>
+                <td>@med.BrandName</td>
+                <td>@med.Company</td>
+                <td>@med.Category?.Name</td>
+                <td>@med.ReorderLevel</td>
+            </tr>
+        }
+    </tbody>
+</table>

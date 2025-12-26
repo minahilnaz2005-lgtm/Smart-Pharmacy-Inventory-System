@@ -1,0 +1,34 @@
+﻿@model List<SPIEMS.DAL.Entities.Sale>
+
+<h1>Sales Report (Admin)</h1>
+
+<table class="table table-bordered">
+    <thead class="table table-primary">
+        <tr>
+            <th>Sale #</th>
+            <th>Date</th>
+            <th>User (Staff)</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Total</th>
+            <th>Medicines</th>
+            <th>Items</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.SaleDate</td>
+                <td>@(string.IsNullOrWhiteSpace(s.ProcessedBy) ? "(not recorded)" : s.ProcessedBy)</td>
+                <td>Staff</td>
+                <td>@s.Status</td>
+                <td>@s.TotalAmount</td>
+                <td>@string.Join(", ", s.Lines.Select(l => l.MedicineBatch.Medicine.GenericName))</td>
+                <td>@s.Lines.Sum(l => l.Quantity)</td>
+            </tr>
+        }
+    </tbody>
+</table>

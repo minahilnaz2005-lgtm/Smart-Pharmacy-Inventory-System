@@ -1,0 +1,37 @@
+﻿@model IEnumerable<SPIEMS.DAL.Entities.SupplierReturn>
+
+<h2>📦 Supplier Returns Log</h2>
+
+<a asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">← Back to Dashboard</a>
+<a asp-controller="Returns" asp-action="Create" class="btn btn-success">➕ Return Near-Expiry</a>
+
+@if (TempData["Success"] != null)
+{
+    <div style="background:#d4edda;padding:10px;margin:10px 0;">✅ @TempData["Success"]</div>
+}
+
+<table border="1" cellpadding="10" width="100%" style="margin-top:10px;">
+    <thead style="background:#007bff;color:white;">
+        <tr>
+            <th>Date</th>
+            <th>Supplier</th>
+            <th>Medicine</th>
+            <th>Batch</th>
+            <th>Qty</th>
+            <th>Reason</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.ReturnDate</td>
+                <td>@r.Supplier?.Name</td>
+                <td>@r.MedicineBatch?.Medicine?.GenericName</td>
+                <td>@r.MedicineBatch?.BatchNo</td>
+                <td>@r.Quantity</td>
+                <td>@r.Reason</td>
+            </tr>
+        }
+    </tbody>
+</table>

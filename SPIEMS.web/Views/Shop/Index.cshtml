@@ -1,0 +1,74 @@
+@model IEnumerable<SPIEMS.DAL.Entities.Medicine>
+
+@{
+    ViewData["Title"] = "Shop Medicines";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Shop Medicines</h2>
+        <a asp-action="Cart" class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i> View Cart
+        </a>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+     @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            var stock = item.Batches.Sum(b => b.Quantity);
+            var initialPrice = item.Batches.Where(b => b.Quantity > 0).OrderBy(b => b.ExpiryDate).FirstOrDefault()?.SalePrice ?? 0;
+            var isOutOfStock = stock <= 0;
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@item.GenericName</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@item.BrandName</h6>
+                        <p class="card-text">
+                            <strong>Company:</strong> @item.Company<br/>
+                            <strong>Price:</strong> 
+                            @if (isOutOfStock)
+                            {
+                                <span class="text-muted">N/A</span>
+                            }
+                            else
+                            {
+                                @initialPrice.ToString("C")
+                            }
+                            <br/>
+                            <strong>Stock:</strong> 
+                            @if (isOutOfStock)
+                            {
+                                <span class="badge bg-danger">Out of Stock</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-info text-dark">@stock</span>
+                            }
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                         <form asp-action="AddToCart" method="get" class="row g-2 align-items-center">
+                             <input type="hidden" name="id" value="@item.Id" />
+                             <div class="col-8">
+                                <input type="number" name="quantity" class="form-control" value="1" min="1" max="@(stock > 0 ? stock : 1)" @(isOutOfStock ? "disabled" : "") />
+                             </div>
+                             <div class="col-4">
+                                <button type="submit" class="btn btn-success w-100" @(isOutOfStock ? "disabled" : "")>Add</button>
+                             </div>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

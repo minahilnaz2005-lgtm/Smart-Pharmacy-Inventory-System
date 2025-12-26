@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Add Staff";
+}
+
+<style>
+    .box {
+        max-width: 640px;
+        background: #fff;
+        border: 1px solid #eef2f7;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(15,23,42,.06);
+        padding: 18px;
+    }
+</style>
+
+<div class="box">
+    <h2 style="margin-top:0;">Add Staff</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+    <form method="post" asp-action="Create">
+        @Html.AntiForgeryToken()
+
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input name="username" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input name="password" type="password" class="form-control" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create Staff</button>
+        <a asp-controller="Staff" asp-action="Index" class="btn btn-secondary ms-2">Back</a>
+    </form>
+</div>

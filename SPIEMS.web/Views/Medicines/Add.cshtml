@@ -1,0 +1,43 @@
+﻿@model SPIEMS.DAL.Entities.Medicine
+
+<h1>➕ Add Medicine</h1>
+
+<a asp-controller="Medicines"
+   asp-action="Index"
+   class="btn btn-secondary">
+    ← Back to Medicines
+</a>
+
+<form method="post" style="max-width:600px; margin-top:20px;">
+
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Generic Name</label>
+        <input asp-for="GenericName" required />
+    </div>
+
+    <div>
+        <label>Brand Name</label>
+        <input asp-for="BrandName" />
+    </div>
+
+    <div>
+        <label>Company</label>
+        <input asp-for="Company" />
+    </div>
+
+    <div>
+        <label>Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" required></select>
+    </div>
+
+    <div>
+        <label>Reorder Level</label>
+        <input asp-for="ReorderLevel" type="number" min="1" />
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        💾 Save
+    </button>
+</form>

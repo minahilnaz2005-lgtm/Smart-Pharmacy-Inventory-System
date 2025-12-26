@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\SPIEMS.web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\SPIEMS.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\SPIEMS.BLL.csproj",
+        "projectName": "SPIEMS.BLL",
+        "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\SPIEMS.BLL.csproj",
+        "packagesPath": "C:\\Users\\airam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\airam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj": {
+                "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj",
+        "projectName": "SPIEMS.DAL",
+        "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj",
+        "packagesPath": "C:\\Users\\airam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\airam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\SPIEMS.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\SPIEMS.web.csproj",
+        "projectName": "SPIEMS.web",
+        "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\SPIEMS.web.csproj",
+        "packagesPath": "C:\\Users\\airam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\airam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\SPIEMS.BLL.csproj": {
+                "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.BLL\\SPIEMS.BLL.csproj"
+              },
+              "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj": {
+                "projectPath": "C:\\Users\\airam\\OneDrive\\Desktop\\cs 4th semester\\SPIEMS.web (3)\\SPIEMS.web (3)\\SPIEMS.web\\SPIEMS.DAL\\SPIEMS.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

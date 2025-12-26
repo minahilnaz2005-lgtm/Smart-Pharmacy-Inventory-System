@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SPIEMS.BLL/SPIEMS.BLL.csproj" />
+  <Project Path="SPIEMS.DAL/SPIEMS.DAL.csproj" />
+  <Project Path="SPIEMS.web/SPIEMS.web.csproj" />
+</Solution>
